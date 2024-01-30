@@ -1,0 +1,236 @@
+.background{
+    height: 100%;
+    width: 100%;
+    background-color: #ece4ff;
+    position: fixed;
+    left: 0;
+    top: 0;
+}
+
+.key{
+    height: auto;
+    width: auto;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+
+.music{
+    display: flex;
+    position: relative;
+    margin: auto;
+    justify-content: center;
+}
+
+.keyboard-white{
+    height: auto;
+    width: auto;
+    margin-right: 40px;
+    margin-left: 40px;
+    margin-top: -30px;
+    display: flex;
+    z-index: 1;
+}
+
+.keyboard-black{
+    height: auto;
+    width: auto;
+    margin-right: 40px;
+    margin-left: 40px;
+    margin-top: 0px;
+    display: flex;
+    z-index: 0;
+}
+
+@font-face {
+    font-family: inter;
+    src: url(../fonts/Inter.var.woff2);
+}
+
+.note-c{
+    font-size: 30px;
+    font-family: inter;
+    display: flex;
+    background-color: #c9b1ff;
+    color: #6e5b9b;
+    width: 150px;
+    height: 150px;
+    border-radius: 100%;
+    transition: all 0.7s ease-in-out;
+    justify-content: center;
+    align-items: center;
+    user-select: none;
+}
+
+.note-d{
+    font-size: 30px;
+    font-family: inter;
+    display: flex;
+    background-color: #c9b1ff;
+    color: #6e5b9b;
+    width: 150px;
+    height: 150px;
+    border-radius: 100%;
+    transition: all 0.7s ease-in-out;
+    justify-content: center;
+    align-items: center;
+    user-select: none;
+}
+
+.note-e{
+    font-size: 30px;
+    font-family: inter;
+    display: flex;
+    background-color: #c9b1ff;
+    color: #6e5b9b;
+    width: 150px;
+    height: 150px;
+    border-radius: 100%;
+    transition: all 0.7s ease-in-out;
+    justify-content: center;
+    align-items: center;
+    user-select: none;
+}
+
+.note-f{
+    font-size: 30px;
+    font-family: inter;
+    display: flex;
+    background-color: #c9b1ff;
+    color: #6e5b9b;
+    width: 150px;
+    height: 150px;
+    border-radius: 100%;
+    transition: all 0.7s ease-in-out;
+    justify-content: center;
+    align-items: center;
+    user-select: none;
+}
+
+.note-g{
+    font-size: 30px;
+    font-family: inter;
+    display: flex;
+    background-color: #c9b1ff;
+    color: #6e5b9b;
+    width: 150px;
+    height: 150px;
+    border-radius: 100%;
+    transition: all 0.7s ease-in-out;
+    justify-content: center;
+    align-items: center;
+    user-select: none;
+}
+
+.note-a{
+    font-size: 30px;
+    font-family: inter;
+    display: flex;
+    background-color: #c9b1ff;
+    color: #6e5b9b;
+    width: 150px;
+    height: 150px;
+    border-radius: 100%;
+    transition: all 0.7s ease-in-out;
+    justify-content: center;
+    align-items: center;
+    user-select: none;
+}
+
+.note-b{
+    font-size: 30px;
+    font-family: inter;
+    display: flex;
+    background-color: #c9b1ff;
+    color: #6e5b9b;
+    width: 150px;
+    height: 150px;
+    border-radius: 100%;
+    transition: all 0.7s ease-in-out;
+    justify-content: center;
+    align-items: center;
+    user-select: none;
+}
+
+.note-cs{
+    font-size: 30px;
+    font-family: inter;
+    display: flex;
+    background-color: #a883ff;
+    color: #c7afff;
+    width: 150px;
+    height: 150px;
+    border-radius: 100%;
+    transition: all 0.7s ease-in-out;
+    justify-content: center;
+    align-items: center;
+    user-select: none;
+}
+
+.note-ds{
+    font-size: 30px;
+    font-family: inter;
+    display: flex;
+    background-color: #a883ff;
+    color: #c7afff;
+    width: 150px;
+    height: 150px;
+    border-radius: 100%;
+    transition: all 0.7s ease-in-out;
+    justify-content: center;
+    align-items: center;
+    user-select: none;
+}
+
+.note-fs{
+    font-size: 30px;
+    font-family: inter;
+    display: flex;
+    background-color: #a883ff;
+    color: #c7afff;
+    width: 150px;
+    height: 150px;
+    border-radius: 100%;
+    transition: all 0.7s ease-in-out;
+    justify-content: center;
+    align-items: center;
+    user-select: none;
+}
+
+.note-gs{
+    font-size: 30px;
+    font-family: inter;
+    display: flex;
+    background-color: #a883ff;
+    color: #c7afff;
+    width: 150px;
+    height: 150px;
+    border-radius: 100%;
+    transition: all 0.7s ease-in-out;
+    justify-content: center;
+    align-items: center;
+    user-select: none;
+}
+
+.note-as{
+    font-size: 30px;
+    font-family: inter;
+    display: flex;
+    background-color: #a883ff;
+    color: #c7afff;
+    width: 150px;
+    height: 150px;
+    border-radius: 100%;
+    transition: all 0.7s ease-in-out;
+    justify-content: center;
+    align-items: center;
+    user-select: none;
+}
+
+.space{
+    width: 150px;
+    height: 150px;
+}
+
